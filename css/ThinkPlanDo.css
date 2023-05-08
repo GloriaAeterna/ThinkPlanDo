@@ -141,7 +141,7 @@ h3 {
 }
 .navbar-default .navbar-brand {
   margin: 0;
-  font-size: 35px;
+  font-size: 4vw;
   color: #cbd6fb;
   display: flex;
   height: 100%;
@@ -212,6 +212,18 @@ background: none;
 @media (min-width: 768px) {
 #nav-list {
   display: none;
+  }
+}
+
+@media (max-width: 768px) {
+.navbar-default .navbar-brand {
+  margin: 0;
+  font-size: 7vw;
+  }
+  h1 {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
 }
 
 /********** xsall devices only **********/
@@ -220,14 +232,13 @@ background: none;
 
 /********** Extra xsall devices only **********/
 @media (max-width: 767px) {
-    .navbar-brand h1 {
-    font-size: 5vw;
-  }
+
 
 #xs-deliver {
   margin-top: 5px;
   letter-spacing: .1em;
   text-transform: uppercase;
+  }
 }
 
 
